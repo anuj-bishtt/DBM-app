@@ -1,0 +1,124 @@
+.form-div {
+    width: 80vw;
+    height: 80vh;
+    border-radius: 5px;
+    padding: 50px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.inp-form-value {
+    width: 40vw;
+    height: 2.5rem;
+    border: 1px solid #b2aeae;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+option:disabled {
+    font-size: 16px;
+}
+
+.gender-marital-section {
+    display: flex;
+}
+
+.gender-section,
+.marital-status {
+    width: 30rem;
+    margin-left: 20px;
+}
+
+.gender-marital-section p {
+    /* display: flex; */
+    text-align: left;
+}
+
+.gender-label {
+    margin-right: 10px;
+}
+
+.check-btn {
+    box-shadow: 2px 2px #c2c0c0;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 4px;
+    border: none;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    transition: ease 0.2s;
+}
+
+.check-btn:hover {
+    margin: 2px;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
+
+.button-section {
+    display: flex;
+    margin-left: 7.5rem;
+    margin-top: 20px;
+    justify-content: left;
+}
+
+.button-section .button {
+    margin-right: 20px !important;
+    border: 1px solid transparent !important;
+    height: 40px !important;
+    font-size: medium !important;
+    width: 70px !important;
+    box-shadow: 2px 2px #c2c0c0 !important;
+    border-radius: 5px !important;
+    text-transform: uppercase !important;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.next {
+    background-color: rgb(0, 110, 255) !important;
+    color: #fff !important;
+    transition: ease 0.2s !important;
+    cursor: pointer !important;
+}
+
+.back {
+    height: 53px !important;
+    width: 70px !important;
+}
+
+.next:hover {
+    background-color: #fff !important;
+    color: rgb(0, 110, 255) !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .inp-form-value {
+        width: 70vw;
+    }
+
+    .bgroup,
+    .dob {
+        width: 71vw !important;
+    }
+
+    .gender-section,
+    .marital-status {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .gender-section label,
+    .marital-status label {
+        margin-top: -20px;
+    }
+}

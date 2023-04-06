@@ -1,0 +1,61 @@
+.form-contianer {
+    width: 80vw !important;
+    height: 70vh !important;
+    border-radius: 5px !important;
+    padding: 50px !important;
+    margin: auto !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.add-form-value {
+    width: 40vw !important;
+    height: 2.5rem !important;
+    border: 1px solid #b2aeae !important;
+    margin: 10px !important;
+    border-radius: 5px !important;
+}
+
+.back-to-home,
+.next-thank-you {
+    margin-right: 20px !important;
+    border: 1px solid transparent !important;
+    height: 40px !important;
+    font-size: medium !important;
+    width: 70px !important;
+    box-shadow: 2px 2px #c2c0c0 !important;
+    border-radius: 5px !important;
+    text-transform: uppercase !important;
+    background-color: rgb(0, 110, 255) !important;
+    color: #fff !important;
+    transition: ease 0.2s !important;
+    cursor: pointer !important;
+}
+
+.back-to-home:hover,
+.next-thank-you:hover {
+    background-color: #fff !important;
+    color: rgb(0, 110, 255) !important;
+}
+
+.country,
+.city,
+.state {
+    width: 40.4vw !important;
+    height: 2.8rem !important;
+    /* border: 1px solid #b2aeae !important; */
+    margin: 10px !important;
+    border-radius: 5px !important; 
+}
+
+@media only screen and (max-width: 600px) {
+    .add-form-value {
+        width: 70vw !important;
+    }
+
+    .country,
+    .city,
+    .state {
+        width: 71vw !important;
+        height: 2.8rem !important;
+    }
+}
