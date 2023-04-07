@@ -102,7 +102,7 @@ export class Confirm extends Component {
               </ListItem>
               <hr />
               <ListItem>
-                <ListItemText primary="Bio" secondary={pinCode} />
+                <ListItemText primary="Pin Code" secondary={pinCode} />
               </ListItem>
               <hr />
             </List>

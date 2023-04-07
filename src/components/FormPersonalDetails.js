@@ -53,8 +53,8 @@ export class FormPersonalDetails extends Component {
                   onChange={handleChange('state')}
                   defaultValue={values.state}>
                   <option value="" disabled selected>State</option>
-                  <option value="up">UP</option>
-                  <option value="uk">UK</option>
+                  <option value="UP">UP</option>
+                  <option value="UK">UK</option>
                 </select>
               </div>
               <div className='address-details'>
@@ -62,7 +62,7 @@ export class FormPersonalDetails extends Component {
                   onChange={handleChange('country')}
                   defaultValue={values.country}>
                   <option value="" disabled selected>Counrty</option>
-                  <option value="india">India</option>
+                  <option value="India">India</option>
                 </select>
                 <input type="number" placeholder="Pin Code" className="pcode add-form-value" required label="Address 1"
                   onChange={handleChange('pinCode')}

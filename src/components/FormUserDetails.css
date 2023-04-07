@@ -117,8 +117,20 @@ a {
         justify-content: left;
     }
 
-    .gender-section label,
-    .marital-status label {
-        margin-top: -20px;
+    .flex-view {
+        display: flex;
+    }
+
+    .martial-mobile-view {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gender-section {
+        margin-right: -20px;
+    }
+
+    .marital-status {
+        margin-left: -0px;
     }
 }

@@ -30,7 +30,7 @@ export class FormUserDetails extends Component {
                 label="Last Name"
                 onChange={handleChange('lastName')}
                 defaultValue={values.lastName} />
-              <input type='number' className='phone inp-form-value' maxlength="10" placeholder="Mobile No"
+              <input type='number' className='phone inp-form-value' placeholder="Mobile No"
                 label="Mobile No"
                 onChange={handleChange('mobileNo')}
                 defaultValue={values.mobileNo} />
@@ -72,14 +72,18 @@ export class FormUserDetails extends Component {
               </div>
               <div className='marital-status'>
                 <p>Martial Status</p>
-                <input value="Single" name="status" type="radio" onChange={handleChange('maritalStatus')} defaultValue={values.maritalStatus} />
-                <label className="gender-label">Single</label>
-                <input value="Married" name="status" type="radio" onChange={handleChange('maritalStatus')} defaultValue={values.maritalStatus} />
-                <label className="gender-label">Married</label>
-                <input value="Divorced" name="status" type="radio" onChange={handleChange('maritalStatus')} defaultValue={values.maritalStatus} />
-                <label className="gender-label">Divorced</label>
-                <input value="Widowed" name="status" type="radio" onChange={handleChange('maritalStatus')} defaultValue={values.maritalStatus} />
-                <label className="gender-label">Widowed</label>
+                <div className='martial-mobile-view'>
+                  <div className='flex-view'>
+                    <input value="Single" name="status" type="radio" onChange={handleChange('maritalStatus')} defaultValue={values.maritalStatus} />
+                    <label className="gender-label">Single</label>
+                  </div>
+                  <input value="Married" name="status" type="radio" onChange={handleChange('maritalStatus')} defaultValue={values.maritalStatus} />
+                  <label className="gender-label">Married</label>
+                  <input value="Divorced" name="status" type="radio" onChange={handleChange('maritalStatus')} defaultValue={values.maritalStatus} />
+                  <label className="gender-label">Divorced</label>
+                  <input value="Widowed" name="status" type="radio" onChange={handleChange('maritalStatus')} defaultValue={values.maritalStatus} />
+                  <label className="gender-label">Widowed</label>
+                </div>
               </div>
             </div>
             <br />
